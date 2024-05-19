@@ -23,7 +23,7 @@ class StringBuilder {
 
 }
 
-
+// Start of auto verifications:
 const builder = new StringBuilder(".");
 console.log(builder.getValue()); // "."
 builder.padStart("^");
